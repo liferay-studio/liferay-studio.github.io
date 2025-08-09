@@ -10,7 +10,7 @@ export default defineConfig({
     starlight({
       title: "Liferay Studio",
       description:
-        "Liferay Studio is a collection of tools and projects for Liferay developers.",
+        "Liferay Studio is a collection of tools, frameworks, libraries, utilities, tools and learning resources for Liferay developers.",
       social: [
         {
           icon: "github",
