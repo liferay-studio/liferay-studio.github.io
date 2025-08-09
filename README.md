@@ -2,7 +2,7 @@
 
 <div style="display: flex; justify-content: space-between;">
     <span><strong>The power of a Liferay IDE, inside the editor you love.</strong></span>
-    <span><a href="https://liferay-studio.github.io/" target="_blank">Read More</a></span>
+    <span><a href="https://liferay-studio.github.io/" target="_blank">Learn More</a></span>
 </div>
 
 ---
