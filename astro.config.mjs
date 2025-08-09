@@ -26,26 +26,38 @@ export default defineConfig({
         },
       ],
       sidebar: [
-        // {
-        //   label: "Projects",
-        //   items: [
-        //     // Each item here is one entry in the navigation menu.
-        //     { label: "Just-Blade", slug: "just-blade" },
-        //     { label: "WP-Blade", slug: "wp-blade" },
-        //     { label: "WP-Theme", slug: "wp-theme" },
-        //   ],
-        // },
-        //   {
-        //     label: "Guides",
-        //     items: [
-        //       // Each item here is one entry in the navigation menu.
-        //       { label: "Example Guide", slug: "guides/example" },
-        //     ],
-        //   },
-        //   {
-        //     label: "Reference",
-        //     autogenerate: { directory: "reference" },
-        //   },
+        {
+          label: "Introduction",
+          items: [
+            { label: "What is Liferay?", slug: "introduction/what-is-liferay" },
+            { label: "What is OSGi?", slug: "introduction/what-is-osgi" },
+            { label: "OSGi Modules", slug: "introduction/osgi-modules" },
+            {
+              label: "Anatomy of .bnd file",
+              slug: "introduction/anatomy-of-dot-bnd",
+            },
+            {
+              label: "Liferay Workspace",
+              slug: "introduction/liferay-workspace",
+            },
+            {
+              label: "Liferay CLI Reference",
+              slug: "introduction/liferay-cli-reference",
+            },
+          ],
+        },
+        {
+          label: "Installation",
+          items: [{ label: "Quick Start", slug: "installation/quick-start" }],
+        },
+        {
+          label: "Modules",
+          items: [
+            { label: "API", slug: "modules/api" },
+            { label: "Control Menu Entry", slug: "modules/control-menu-entry" },
+            { label: "Form Field", slug: "modules/form-field" },
+          ],
+        },
       ],
     }),
   ],

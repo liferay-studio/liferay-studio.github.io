@@ -1,7 +1,10 @@
 {
   "name": "liferay-studio",
-  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "packageManager": "pnpm@10.14.0",
+  "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
