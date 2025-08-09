@@ -1,6 +1,7 @@
 {
   "name": "liferay-studio",
   "type": "module",
+  "packageManager": "pnpm@10.14.0",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
