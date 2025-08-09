@@ -1,0 +1,52 @@
+---
+title: webpup
+description: Frameworks, libraries, utilities, tools and more
+template: splash
+hero:
+  tagline: Frameworks, libraries, utilities, tools and more!
+  image:
+    file: ../../assets/houston.webp
+  # actions:
+  #   - text: Example Guide
+  #     link: /guides/example/
+  #     icon: right-arrow
+  #   - text: Read the webpup docs
+  #     link: https://webpup.github.io
+  #     icon: external
+  #     variant: minimal
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+import "../../assets/global.css";
+
+
+
+## Our projects
+
+<CardGrid stagger>
+  <Card title="Just-Blade" icon="pencil" link="/just-blade/">
+    ``` composer require webpup/just-blade ```   
+
+    [Read more ->](/just-blade/)
+
+  </Card>
+
+  <Card title="WP-Blade" icon="add-document" link="/wp-blade/">
+    ``` composer require webpup/wp-blade ```   
+
+    [Read more ->](/wp-blade/)
+
+  </Card>
+
+  <Card title="WP-Theme" icon="add-document" link="/wp-theme/">
+     ``` composer create-project webpup/wp-theme my-theme ```   
+
+    [Read more ->](/wp-theme/)
+  </Card>
+  {/* <Card title="Configure your site" icon="setting">
+    Edit your `sidebar` and other config in `astro.config.mjs`.
+  </Card> */}
+  {/* <Card title="Read the docs" icon="open-book">
+    Learn more in [the Starlight Docs](https://starlight.astro.build/).
+  </Card> */}
+</CardGrid>
