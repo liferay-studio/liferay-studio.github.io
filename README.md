@@ -1,8 +1,9 @@
-# Liferay Studio
+# Liferay Studio [🔗](https://liferay-studio.github.io/)
 
-<p align="center">
-  <strong>The power of a Liferay IDE, inside the editor you love.</strong>
-</p>
+<div style="display: flex; justify-content: space-between;">
+    <span><strong>The power of a Liferay IDE, inside the editor you love.</strong></span>
+    <span><a href="https://liferay-studio.github.io/" target="_blank">Read More</a></span>
+</div>
 
 ---
 
