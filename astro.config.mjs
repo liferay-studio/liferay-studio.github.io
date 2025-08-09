@@ -15,19 +15,24 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://liferay-studio.github.io",
+          href: "https://github.com/liferay-studio/liferay-studio.github.io",
+        },
+        {
+          icon: "linkedin",
+          label: "Linkedin",
+          href: "https://www.linkedin.com/company/liferay-studio",
         },
       ],
       sidebar: [
-        {
-          label: "Projects",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Just-Blade", slug: "just-blade" },
-            { label: "WP-Blade", slug: "wp-blade" },
-            { label: "WP-Theme", slug: "wp-theme" },
-          ],
-        },
+        // {
+        //   label: "Projects",
+        //   items: [
+        //     // Each item here is one entry in the navigation menu.
+        //     { label: "Just-Blade", slug: "just-blade" },
+        //     { label: "WP-Blade", slug: "wp-blade" },
+        //     { label: "WP-Theme", slug: "wp-theme" },
+        //   ],
+        // },
         //   {
         //     label: "Guides",
         //     items: [
