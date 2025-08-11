@@ -61,6 +61,7 @@ export default defineConfig({
         },
         {
           label: "API",
+          collapsed: true,
           items: [
             {
               label: "Liferay API",
@@ -71,6 +72,7 @@ export default defineConfig({
         },
         {
           label: "Headless",
+          collapsed: true,
           items: [
             {
               label: "Headless Liferay",
@@ -85,6 +87,7 @@ export default defineConfig({
 
         {
           label: "Portlets",
+          collapsed: true,
           items: [
             {
               label: "Portlet Basics",
@@ -137,6 +140,7 @@ export default defineConfig({
         },
         {
           label: "Themes",
+          collapsed: true,
           items: [
             {
               label: "Themes Basics",
@@ -182,6 +186,7 @@ export default defineConfig({
         },
         {
           label: "REST",
+          collapsed: true,
           items: [
             {
               label: "REST Patterns",
@@ -207,6 +212,7 @@ export default defineConfig({
         },
         {
           label: "Services",
+          collapsed: true,
           items: [
             {
               label: "Service Patterns",
@@ -262,20 +268,8 @@ export default defineConfig({
               label: "Simulation Panel Entry",
               slug: "modules/simulation-panel-entry",
             },
-
-            // { label: "WCM Structure", slug: "modules/wcm-structure" },
-            // { label: "WCM Template", slug: "modules/wcm-template" },
           ],
         },
-        // {
-        //   label: "Tools",
-        //   items: [
-        //     { label: "Bndtools", slug: "tools/bndtools" },
-        //     { label: "Liferay IDE", slug: "tools/liferay-ide" },
-        //     { label: "Liferay Studio", slug: "tools/liferay-studio" },
-
-        //   ],
-        // },
       ],
     }),
   ],
