@@ -5,6 +5,10 @@ description: Liferay Blade Cli reference guide
 
 This cheat sheet contains the most frequently used Blade CLI and Gradle commands for Liferay development. Keep it handy for faster project setup and deployment workflows.
 
+### Install Blade CLI
+
+<a href="https://help.liferay.com/hc/en-us/articles/360017885232-Installing-Blade-CLI" target="_blank">Installing Blade CLI</a>
+
 ### Workspace Commands
 
 | Command                   | Description                                |

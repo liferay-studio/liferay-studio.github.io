@@ -9,7 +9,7 @@ description: Liferay OSGi Modules overview guide
 **Purpose**: Creates a standalone API module to expose interfaces or utilities for other modules.  
 **Use Case**: Define shared interfaces, DTOs, or utilities consumed by multiple modules (e.g., OSGi services).
 
-- [**For more details**](../../modules/api/)
+- [**For more details**](../../api/sample-api/)
 
 ---
 
@@ -169,6 +169,8 @@ description: Liferay OSGi Modules overview guide
 **Purpose**: Creates a REST service using JAX-RS.  
 **Use Case**: Expose Liferay data via REST APIs (e.g., `/api/users`).
 
+- [**For more details**](../../rest/samples/rest-module/)
+
 ---
 
 ### 18. REST Builder
@@ -176,6 +178,8 @@ description: Liferay OSGi Modules overview guide
 **Command**: `blade create -t rest-builder [name]`  
 **Purpose**: Generates REST APIs from OpenAPI (Swagger) YAML files.  
 **Use Case**: Design-first API development with automatic scaffolding.
+
+- [**For more details**](../../rest/samples/rest-builder/)
 
 ---
 
@@ -185,6 +189,8 @@ description: Liferay OSGi Modules overview guide
 **Purpose**: Creates an OSGi service (declarative or programmatic).  
 **Use Case**: Business logic encapsulation (e.g., `UserNotificationService`).
 
+- [**For more details**](../../services/samples/service-module/)
+
 ---
 
 ### 20. Service Builder
@@ -193,6 +199,8 @@ description: Liferay OSGi Modules overview guide
 **Purpose**: Scaffolds a Service Builder project for database operations.  
 **Use Case**: CRUD apps with generated persistence layers (e.g., `*LocalService`).
 
+- [**For more details**](../../services/samples/service-builder)
+
 ---
 
 ### 21. Service Wrapper
@@ -200,6 +208,8 @@ description: Liferay OSGi Modules overview guide
 **Command**: `blade create -t service-wrapper [name]`  
 **Purpose**: Overrides/extends existing Liferay OSGi services.  
 **Use Case**: Modify core services (e.g., logging or validation hooks).
+
+- [**For more details**](../../services/samples/service-wrapper)
 
 ---
 

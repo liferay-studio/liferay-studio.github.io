@@ -49,8 +49,40 @@ export default defineConfig({
               label: "Liferay CLI Reference",
               slug: "introduction/liferay-cli-reference",
             },
+            {
+              label: "@Component",
+              slug: "introduction/component",
+            },
+            {
+              label: "@Reference",
+              slug: "introduction/reference",
+            },
           ],
         },
+        {
+          label: "API",
+          items: [
+            {
+              label: "Liferay API",
+              slug: "api/liferay-api",
+            },
+            { label: "Sample API", slug: "api/sample-api" },
+          ],
+        },
+        {
+          label: "Headless",
+          items: [
+            {
+              label: "Headless Liferay",
+              slug: "headless/headless",
+            },
+            {
+              label: "Headless API Sample Project",
+              slug: "headless/headless-sample",
+            },
+          ],
+        },
+
         {
           label: "Portlets",
           items: [
@@ -149,10 +181,73 @@ export default defineConfig({
           ],
         },
         {
+          label: "REST",
+          items: [
+            {
+              label: "REST Patterns",
+              slug: "rest/rest-patterns",
+            },
+            {
+              label: "REST Module Basics",
+              slug: "rest/rest-module",
+            },
+            {
+              label: "REST Builder Basics",
+              slug: "rest/rest-builder",
+            },
+            {
+              label: "REST Samples",
+              collapsed: true,
+              items: [
+                { label: "REST Module", slug: "rest/samples/rest-module" },
+                { label: "REST Builder", slug: "rest/samples/rest-builder" },
+              ],
+            },
+          ],
+        },
+        {
+          label: "Services",
+          items: [
+            {
+              label: "Service Patterns",
+              slug: "services/service-patterns",
+            },
+            {
+              label: "Service Module Basics",
+              slug: "services/service-module",
+            },
+            {
+              label: "Service Builder Basics",
+              slug: "services/service-builder",
+            },
+            {
+              label: "Service Wrapper Basics",
+              slug: "services/service-wrapper",
+            },
+            {
+              label: "REST Samples",
+              collapsed: true,
+              items: [
+                {
+                  label: "Service Module",
+                  slug: "services/samples/service-module",
+                },
+                {
+                  label: "Service Builder",
+                  slug: "services/samples/service-builder",
+                },
+                {
+                  label: "Service Wrapper",
+                  slug: "services/samples/service-wrapper",
+                },
+              ],
+            },
+          ],
+        },
+        {
           label: "Other Liferay Modules",
           collapsed: true,
           items: [
-            { label: "API", slug: "modules/api" },
             { label: "Control Menu Entry", slug: "modules/control-menu-entry" },
             { label: "Form Field", slug: "modules/form-field" },
             { label: "Fragment", slug: "modules/fragment" },
@@ -163,11 +258,6 @@ export default defineConfig({
 
             { label: "Panel App", slug: "modules/panel-app" },
 
-            { label: "REST Module", slug: "modules/rest-module" },
-            { label: "REST Builder", slug: "modules/rest-builder" },
-            { label: "Service Module", slug: "modules/service-module" },
-            { label: "Service Builder", slug: "modules/service-builder" },
-            { label: "Service Wrapper", slug: "modules/service-wrapper" },
             {
               label: "Simulation Panel Entry",
               slug: "modules/simulation-panel-entry",
