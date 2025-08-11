@@ -27,6 +27,11 @@ export default defineConfig({
       ],
       sidebar: [
         {
+          label: "Installation",
+          collapsed: true,
+          items: [{ label: "Quick Start", slug: "installation/quick-start" }],
+        },
+        {
           label: "Introduction",
           items: [
             { label: "What is Liferay?", slug: "introduction/what-is-liferay" },
@@ -47,35 +52,140 @@ export default defineConfig({
           ],
         },
         {
-          label: "Installation",
-          items: [{ label: "Quick Start", slug: "installation/quick-start" }],
+          label: "Portlets",
+          items: [
+            {
+              label: "Portlet Basics",
+              slug: "portlets/portlet-basics",
+            },
+            {
+              label: "Portlet Advance",
+              slug: "portlets/portlet-advance",
+            },
+            {
+              label: "Portlet Security",
+              slug: "portlets/portlet-security",
+            },
+            {
+              label: "Portlet Samples",
+              collapsed: true,
+              items: [
+                { label: "MVC Portlet", slug: "portlets/samples/mvc-portlet" },
+                {
+                  label: "Spring MVC Portlet",
+                  slug: "portlets/samples/spring-mvc-portlet",
+                },
+                {
+                  label: "Angular Portlet",
+                  slug: "portlets/samples/npm-angular-portlet",
+                },
+                {
+                  label: "React Portlet",
+                  slug: "portlets/samples/npm-react-portlet",
+                },
+                {
+                  label: "VueJS Portlet",
+                  slug: "portlets/samples/npm-vuejs-portlet",
+                },
+                {
+                  label: "Portlet Configuration Icon",
+                  slug: "portlets/samples/portlet-configuration-icon",
+                },
+                {
+                  label: "Portlet Provider",
+                  slug: "portlets/samples/portlet-provider",
+                },
+                {
+                  label: "Portlet Toolbar Contributor",
+                  slug: "portlets/samples/portlet-toolbar-contributor",
+                },
+              ],
+            },
+          ],
         },
         {
-          label: "Modules",
+          label: "Themes",
+          items: [
+            {
+              label: "Themes Basics",
+              slug: "themes/liferay-themes",
+            },
+
+            { label: "Modular Theme", slug: "themes/modular-theme" },
+            {
+              label: "Classic WAR Theme",
+              slug: "themes/classic-war-based-themes-in-liferay-legacy-approach",
+            },
+            {
+              label: "Theme Samples",
+              collapsed: true,
+              items: [
+                {
+                  label: "Classic Theme Sample",
+                  slug: "themes/samples/classic-theme",
+                },
+                {
+                  label: "JS Theme Sample",
+                  slug: "themes/samples/js-theme-sample",
+                },
+                {
+                  label: "Layout Template Sample",
+                  slug: "themes/samples/layout-template",
+                },
+                {
+                  label: "Theme Contributor Sample",
+                  slug: "themes/samples/theme-contributor",
+                },
+                {
+                  label: "Template Context Contributor",
+                  slug: "themes/samples/template-context-contributor",
+                },
+                {
+                  label: "React based Theme Sample",
+                  slug: "themes/samples/react-based-theme-sample",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          label: "Other Liferay Modules",
+          collapsed: true,
           items: [
             { label: "API", slug: "modules/api" },
             { label: "Control Menu Entry", slug: "modules/control-menu-entry" },
             { label: "Form Field", slug: "modules/form-field" },
             { label: "Fragment", slug: "modules/fragment" },
-            { label: "JS Theme", slug: "modules/js-theme" },
+
             { label: "JS Widget", slug: "modules/js-widget" },
-            { label: "Layout Template", slug: "modules/layout-template" },
+
             { label: "Modules Ext", slug: "modules/modules-ext" },
-            { label: "MVC Portlet", slug: "modules/mvc-portlet" },
-            {
-              label: "NPM Angular Portlet",
-              slug: "modules/npm-angular-portlet",
-            },
-            { label: "NPM React Portlet", slug: "modules/npm-react-portlet" },
-            { label: "NPM VueJS Portlet", slug: "modules/npm-vuejs-portlet" },
+
             { label: "Panel App", slug: "modules/panel-app" },
+
+            { label: "REST Module", slug: "modules/rest-module" },
+            { label: "REST Builder", slug: "modules/rest-builder" },
+            { label: "Service Module", slug: "modules/service-module" },
+            { label: "Service Builder", slug: "modules/service-builder" },
+            { label: "Service Wrapper", slug: "modules/service-wrapper" },
             {
-              label: "Portlet Configuration Icon",
-              slug: "modules/portlet-configuration-icon",
+              label: "Simulation Panel Entry",
+              slug: "modules/simulation-panel-entry",
             },
-            { label: "Portlet Provider", slug: "modules/portlet-provider" },
+
+            // { label: "WCM Structure", slug: "modules/wcm-structure" },
+            // { label: "WCM Template", slug: "modules/wcm-template" },
           ],
         },
+        // {
+        //   label: "Tools",
+        //   items: [
+        //     { label: "Bndtools", slug: "tools/bndtools" },
+        //     { label: "Liferay IDE", slug: "tools/liferay-ide" },
+        //     { label: "Liferay Studio", slug: "tools/liferay-studio" },
+
+        //   ],
+        // },
       ],
     }),
   ],

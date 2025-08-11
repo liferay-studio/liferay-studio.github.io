@@ -18,7 +18,7 @@ blade create -t mvc-portlet todo-list-portlet
 
 #### Add a JSP View
 
-```jsp
+```html
 <!-- todo-list-portlet/src/main/resources/META-INF/resources/view.jsp -->
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 
@@ -26,8 +26,8 @@ blade create -t mvc-portlet todo-list-portlet
 
 <h1>My To-Do List</h1>
 <ul>
-    <li>Learn Liferay</li>
-    <li>Build a portlet</li>
+  <li>Learn Liferay</li>
+  <li>Build a portlet</li>
 </ul>
 ```
 
