@@ -18,6 +18,28 @@ export default defineConfig({
         alt: "Liferay Studio",
       },
 
+      head: [
+        {
+          tag: "script",
+          attrs: {
+            is: "inline", // Important for Astro to handle the script correctly
+            src: `https://www.googletagmanager.com/gtag/js?id=G-T6BFGHCLJQ`,
+          },
+        },
+        {
+          tag: "script",
+          attrs: {
+            is: "inline",
+          },
+          content: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-T6BFGHCLJQ');
+              `,
+        },
+      ],
+
       social: [
         {
           icon: "github",
