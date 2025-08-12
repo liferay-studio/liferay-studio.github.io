@@ -15,7 +15,7 @@
 
 ## ✉️ Let's Connect
 
-[![LinkedIn](./public/linkedin-48.png "LinkedIn")](https://www.linkedin.com/in/maratibali) [![Github](./public/github-48.png "Github")](https://github.com/maratib)
+[![LinkedIn](https://github.com/liferay-studio/liferay-studio.github.io/raw/main/public/linkedin-48.png "LinkedIn")](https://www.linkedin.com/in/maratibali) [![Github](https://github.com/liferay-studio/liferay-studio.github.io/raw/main/public/github-48.png "Github")](https://github.com/maratib)
 
 ---
 
