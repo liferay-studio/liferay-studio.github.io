@@ -7,6 +7,14 @@
 
 ---
 
+## ✉️ Let's Connect
+
+<a href="https://www.linkedin.com/in/maratibali" rel="nofollow noreferrer" style="display: inline-block">
+    <img src="https://i.sstatic.net/gVE0j.png" alt="linkedin" width="20">
+</a>
+
+---
+
 **Liferay Studio** is a meticulously crafted extension that brings a seamless, integrated, and blazing-fast Liferay development experience directly into Visual Studio Code. Say goodbye to context switching and hello to a unified, modern workflow.
 
 ![Liferay Studio Context Menu](https://github.com/liferay-studio/liferay-studio.github.io/raw/main/public/liferay-studio-menu.png)
@@ -86,9 +94,3 @@ liferay.workspace.home.dir=/path/to/your/liferay/bundle
 | `liferay-home` | Liferay modules hot deploy | ""      | `"liferayStudio.liferay-home": /User/xyz/Liferay/Home` |
 
 ## Known Issues
-
-## Let's connect
-
-<a href="https://www.linkedin.com/in/maratibali" target="_blank" rel="noopener noreferrer" rel="nofollow noreferrer" style="display: inline-block">
-    <img src="https://i.sstatic.net/gVE0j.png" alt="linkedin" width="20">
-</a>
