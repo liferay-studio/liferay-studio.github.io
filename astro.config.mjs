@@ -47,6 +47,10 @@ export default defineConfig({
               slug: "introduction/anatomy-of-dot-bnd",
             },
             {
+              label: "gradle.properties file",
+              slug: "introduction/anatomy-of-gradle-properties-file",
+            },
+            {
               label: "Liferay Workspace",
               slug: "introduction/liferay-workspace",
             },
