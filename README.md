@@ -86,3 +86,9 @@ liferay.workspace.home.dir=/path/to/your/liferay/bundle
 | `liferay-home` | Liferay modules hot deploy | ""      | `"liferayStudio.liferay-home": /User/xyz/Liferay/Home` |
 
 ## Known Issues
+
+## Let's connect
+
+<a href="https://www.linkedin.com/in/maratibali" target="_blank" rel="noopener noreferrer" rel="nofollow noreferrer" style="display: inline-block">
+    <img src="https://i.sstatic.net/gVE0j.png" alt="linkedin" width="20">
+</a>
