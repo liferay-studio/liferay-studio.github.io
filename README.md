@@ -31,8 +31,8 @@
 
 Before you begin, ensure you have the following installed:
 
-- Java JDK 11+ or higher
-- Liferay's Blade CLI
+- Java JDK 11+
+- [Liferay's Blade CLI](https://learn.liferay.com/w/dxp/development/tooling/blade-cli)
 
 ### 2. Installation
 
