@@ -9,7 +9,7 @@
 
 **Liferay Studio** is a meticulously crafted extension that brings a seamless, integrated, and blazing-fast Liferay development experience directly into Visual Studio Code. Say goodbye to context switching and hello to a unified, modern workflow.
 
-![Liferay Studio Context Menu](public/liferay-studio-menu.png)
+![Liferay Studio Context Menu](https://github.com/liferay-studio/liferay-studio.github.io/raw/main/public/liferay-studio-menu.png)
 
 ## ✨ Key Features
 
