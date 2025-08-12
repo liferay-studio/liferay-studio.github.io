@@ -2,15 +2,20 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import mermaid from "astro-mermaid";
+import favicons from "astro-favicons";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://liferay-studio.github.io",
-
   integrations: [
     mermaid(),
     starlight({
       title: "Liferay Studio",
+      logo: {
+        src: "./src/assets/favicon.svg",
+        alt: "Liferay Studio",
+      },
+
       description:
         "Liferay Studio is a collection of tools, frameworks, libraries, utilities, tools and learning resources for Liferay developers.",
       social: [
@@ -272,5 +277,6 @@ export default defineConfig({
         },
       ],
     }),
+    favicons(),
   ],
 });

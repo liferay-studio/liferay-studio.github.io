@@ -9,7 +9,7 @@
 
 **Liferay Studio** is a meticulously crafted extension that brings a seamless, integrated, and blazing-fast Liferay development experience directly into Visual Studio Code. Say goodbye to context switching and hello to a unified, modern workflow.
 
-![Liferay Studio Context Menu](img/context-menu.png)
+![Liferay Studio Context Menu](public/liferay-studio-menu.png)
 
 ## ✨ Key Features
 
@@ -31,7 +31,7 @@
 
 Before you begin, ensure you have the following installed:
 
-- Java JDK 21 or higher
+- Java JDK 11+ or higher
 - Liferay's Blade CLI
 
 ### 2. Installation
