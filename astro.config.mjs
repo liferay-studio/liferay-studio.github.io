@@ -11,13 +11,13 @@ export default defineConfig({
     mermaid(),
     starlight({
       title: "Liferay Studio",
+      description:
+        "Liferay developer tools for Visual Studio Code, Liferay Studio, Liferay Studio for VSCode, Liferay IDE for VSCode, Liferay developer learning resources",
       logo: {
         src: "./src/assets/favicon.svg",
         alt: "Liferay Studio",
       },
 
-      description:
-        "Liferay Studio is a collection of tools, frameworks, libraries, utilities, tools and learning resources for Liferay developers.",
       social: [
         {
           icon: "github",
