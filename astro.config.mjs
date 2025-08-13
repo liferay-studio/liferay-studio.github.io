@@ -91,6 +91,20 @@ export default defineConfig({
           ],
         },
         {
+          label: "Advanced Topics",
+          collapsed: true,
+          items: [
+            {
+              label: "Headless Liferay",
+              slug: "advance/headless",
+            },
+            {
+              label: "Headless API Sample Project",
+              slug: "advance/headless-sample",
+            },
+          ],
+        },
+        {
           label: "API",
           collapsed: true,
           items: [
@@ -99,20 +113,6 @@ export default defineConfig({
               slug: "api/liferay-api",
             },
             { label: "Sample API", slug: "api/sample-api" },
-          ],
-        },
-        {
-          label: "Headless",
-          collapsed: true,
-          items: [
-            {
-              label: "Headless Liferay",
-              slug: "headless/headless",
-            },
-            {
-              label: "Headless API Sample Project",
-              slug: "headless/headless-sample",
-            },
           ],
         },
 
