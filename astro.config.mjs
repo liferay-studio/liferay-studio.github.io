@@ -40,14 +40,14 @@ export default defineConfig({
 
       social: [
         {
-          icon: "github",
-          label: "GitHub",
-          href: "https://github.com/liferay-studio/liferay-studio.github.io",
-        },
-        {
           icon: "linkedin",
           label: "Linkedin",
           href: "https://www.linkedin.com/company/liferay-studio",
+        },
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/liferay-studio/liferay-studio.github.io",
         },
       ],
       sidebar: [
