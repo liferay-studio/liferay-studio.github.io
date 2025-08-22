@@ -1,23 +1,21 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import tailwindcss from "@tailwindcss/vite";
 import mermaid from "astro-mermaid";
-import favicons from "astro-favicons";
 
-// https://astro.build/config
+const site = "https://liferay-studio.github.io";
+
 export default defineConfig({
-  site: "https://liferay-studio.github.io",
+  site,
   integrations: [
     mermaid(),
     starlight({
       title: "Liferay Studio",
-      description:
-        "Liferay developer tools for Visual Studio Code, Liferay Studio, Liferay Studio for VSCode, Liferay IDE for VSCode, Liferay developer learning resources",
       logo: {
-        src: "./src/assets/favicon.svg",
+        src: "./src/assets/img/liferay-studio.svg",
         alt: "Liferay Studio",
       },
-
       head: [
         {
           tag: "script",
@@ -302,7 +300,13 @@ export default defineConfig({
           ],
         },
       ],
+      customCss: [
+        "./src/assets/css/global.css",
+        // ,"./src/assets/landing.css"
+      ],
     }),
-    favicons(),
   ],
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
