@@ -2,7 +2,7 @@
   "name": "liferay-studio",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.15.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -13,6 +13,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/starlight": "^0.35.2",
+    "@tailwindcss/vite": "^4.1.12",
     "astro": "^5.6.1",
     "astro-mermaid": "^1.0.4",
     "mermaid": "^11.10.1",
@@ -20,7 +21,6 @@
   },
   "devDependencies": {
     "@astrojs/starlight-tailwind": "^4.0.1",
-    "@tailwindcss/vite": "^4.0.7",
     "tailwindcss": "^4.0.7"
   }
 }
